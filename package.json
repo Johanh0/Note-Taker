@@ -1,0 +1,26 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "sass": "node-sass -w public/scss -o public/css --recursive",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johanh0/Note-Taker.git"
+  },
+  "author": "Johan Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johanh0/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/Johanh0/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "gsap": "^3.11.3",
+    "node-sass": "^7.0.3"
+  }
+}
