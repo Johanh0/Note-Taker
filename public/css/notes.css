@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f3f0;
+  color: #0d1b2a; }
+
+body {
+  display: flex; }
+
+aside {
+  width: 400px;
+  height: 100vh;
+  color: #f2f3f0;
+  background-color: #0d1b2a;
+  overflow-y: scroll; }
+  aside .aside-logo {
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+    padding: 25px; }
+  aside .aside-note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 25px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    height: fit-content;
+    font-size: 1.5rem;
+    cursor: pointer; }
+    aside .aside-note:hover {
+      background-color: #1b263b; }
+    aside .aside-note i {
+      padding: 10px; }
+      aside .aside-note i:hover {
+        background-color: #415a77;
+        border-radius: 5px; }
+
+main {
+  width: 100%;
+  padding: 55px;
+  font-size: 1.5rem;
+  height: fit-content;
+  position: relative; }
+  main .save-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 35px;
+    font-size: 2rem;
+    cursor: pointer; }
+    main .save-btn i:hover {
+      color: #778da9; }

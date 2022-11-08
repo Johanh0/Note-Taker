@@ -1,0 +1,68 @@
+@import './var';
+@import './general';
+
+body {
+    display: flex;
+}
+
+aside {
+    width: 400px;
+    height: 100vh;
+    color: $white;
+    background-color: $black;
+    overflow-y: scroll;
+
+    .aside-logo {
+        margin-bottom: 50px;
+        font-size: 3.5rem;
+        padding: 25px;
+    }
+
+    .aside-note {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 25px;
+        margin-bottom: 10px;
+        // padding: 15px 0 15px 0;
+        border-radius: 20px;
+        height: fit-content;
+        font-size: 1.5rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $secondary-coor;
+        }
+
+        i {
+            padding: 10px;
+
+            &:hover {
+                background-color: $third-color;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+main {
+    width: 100%;
+    padding: 55px;
+    font-size: 1.5rem;
+    height: fit-content;
+    position: relative;
+
+    .save-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 35px;
+        font-size: 2rem;
+        cursor: pointer;
+
+        i:hover {
+            color: $primary-color;
+        }
+    }
+}
