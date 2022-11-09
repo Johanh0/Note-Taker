@@ -1,4 +1,5 @@
-
+// Const
+const saveBtn = document.querySelector(`.fa-check`);
 
 // Editor Configuration
 const editor = new EditorJS({
@@ -39,6 +40,17 @@ const editor = new EditorJS({
         raw: RawTool,
     }
   });
+
+saveBtn.addEventListener(`click`, () => {
+    editor.save().then((outputData) => {
+        console.log(outputData);
+        }).catch((error) => {
+        console.log(`Something went wrong`);
+    })
+});
+
+// Functions
+
 
 // Tippy for trash icons
 tippy(`.fa-trash`, {
