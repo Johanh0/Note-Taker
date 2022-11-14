@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f3f0;
+  color: #0d1b2a; }
+
+i {
+  cursor: pointer; }
+
+body {
+  display: flex; }
+
+.navbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px 50px;
+  font-size: 2rem;
+  z-index: 5; }
+  .navbar .fa-plus {
+    margin-left: 20px; }
+
+aside {
+  width: 400px;
+  height: 100vh;
+  color: #f2f3f0;
+  background-color: #0d1b2a;
+  overflow-y: scroll; }
+  aside .aside-logo {
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+    padding: 25px; }
+  aside .aside-note li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 25px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    height: fit-content;
+    font-size: 1.5rem;
+    cursor: pointer; }
+    aside .aside-note li:hover {
+      background-color: #1b263b; }
+    aside .aside-note li i {
+      padding: 10px; }
+      aside .aside-note li i:hover {
+        background-color: #415a77;
+        border-radius: 5px; }
+
+main {
+  width: 100%;
+  height: 100vh;
+  padding: 55px;
+  font-size: 1.5rem;
+  position: relative;
+  overflow-y: scroll; }
+  main input {
+    display: block;
+    font-size: 5rem;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 25px;
+    outline: none;
+    font-family: 'Poppins', sans-serif; }
+  main textarea {
+    width: 100%;
+    height: 80vh;
+    font-size: 2rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-family: 'Poppins', sans-serif; }
