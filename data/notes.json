@@ -1,18 +1,18 @@
 [
-  2,
+  5,
   {
-    "title": "Wake Up",
-    "text": "Coffee,\nBreakfast,\nCode.\n\nSometimes not in that order.",
-    "id": 2
+    "title": "To Do",
+    "text": "- WakeUp at 6:00 A.M\n- Take the dog out\n- Go to the gym\n- Have a coffee\n- Go to work\n- Read a book",
+    "id": "208f8b349-a137-4ba7-b517-d59a3c0f0561"
   },
   {
-    "title": "Student Loan",
-    "text": "Make sure to pay your student loan on the 28th of every month!",
-    "id": 3
+    "title": "My thoughts 💭 ",
+    "text": "Code is fun.",
+    "id": "3340c5688-915b-4d04-988a-95fecca5a70c"
   },
   {
-    "title": "Grocery List",
-    "text": "Update list whenever you should be going:",
-    "id": 4
+    "title": "Hello World 👋",
+    "text": "This is my project of a note taker!\n\nI tried to implement a minimalist design .\n\nIt's very simple but also have some details as the tooltips on the icons that let you know what you can do with them.\n\nThanks for check my project!",
+    "id": "4b5ee95ff-0efc-4741-8c32-1e3c344c8c29"
   }
 ]
