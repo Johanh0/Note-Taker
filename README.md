@@ -15,7 +15,7 @@ Minimalist app for take simple notes, with a great design, Note taker would help
 
 
 ## 🚀 Deployment
-https://johanh0.github.io/Cherry-Email/
+https://frozen-gorge-51659.herokuapp.com/
 ## 📸 Screen Shots
 ![](./assets/mockup-1.png) 
 ![](./assets/mockup-2.png)
